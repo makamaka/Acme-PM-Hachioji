@@ -1,0 +1,19 @@
+Acme::PM::Hachioji
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+Hachoji.pmの活動報告とか次回の日程とか、便利なモジュールになる予定？
+
+LICENSE
+
+  This library is free software; you can redistribute it and/or modify
+  it under the same terms as Perl itself.
