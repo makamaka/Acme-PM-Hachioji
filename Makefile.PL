@@ -7,7 +7,8 @@ WriteMakefile(
     'NAME'          => 'Acme::PM::Hachioji',
     'VERSION_FROM'  => 'lib/Acme/PM/Hachioji.pm', # finds $VERSION
     'PREREQ_PM'     => {
-        'Test::More'  => '0.96',
+        'Test::More'    => '0.96',
+        'DateTime::Set' => '0.27',
     },
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'lib/Acme/PM/Hachioji.pm', # retrieve abstract from module
