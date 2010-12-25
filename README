@@ -9,11 +9,35 @@ To install this module type the following:
    make test
    make install
 
-DEPENDENCIES
 
-Hachoji.pmの活動報告とか次回の日程とか、便利なモジュールになる予定？
+NAME
+    Acme::PM::Hachioji - Hachioji.pm in Japan
+
+SYNOPSIS
+     $ perldoc Acme::PM::Hachioji;
+
+     # -----
+
+     my $meetings = Acme::PM::Hachioji->meetings;
+
+     while ( my $meeting = $meetings->previous ) {
+        print $meeting->ymd, "\n";
+     }
+
+     while ( my $meeting = $meetings->next ) {
+         print $meeting->ymd, "\n";
+     }
+
+     my $today = DateTime->new( year => 2010, month => 12, day => 24 );
+     my $datetime;
+
+     $datetime = $meetings->days->previous( $today );
+     $datetime = $meetings->days->next( $today );
+
+DESCRIPTION
+    Hachoji.pmの活動報告とか次回の日程とか、便利なモジュールになる予定？
 
 LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-  This library is free software; you can redistribute it and/or modify
-  it under the same terms as Perl itself.
