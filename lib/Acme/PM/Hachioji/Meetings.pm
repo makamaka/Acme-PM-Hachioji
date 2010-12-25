@@ -7,9 +7,7 @@ use DateTime::Set;
 our $VERSION = '201012.24';
 
 my @MEETINGS = (
-#    [2010, 1 , 11, 18, 0],
     [2010, 12, 11, 18, 0],
-#    [2011, 1, 11, 18, 0],
 );
 my $TZ = 'Asia/Tokyo';
 
