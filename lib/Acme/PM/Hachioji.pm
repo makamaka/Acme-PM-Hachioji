@@ -3,7 +3,7 @@ package Acme::PM::Hachioji;
 use strict;
 use warnings;
 
-our $VERSION = '201012.24';
+our $VERSION = '201012.27';
 
 sub meetings {
     require Acme::PM::Hachioji::Meetings;

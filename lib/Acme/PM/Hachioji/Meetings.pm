@@ -4,10 +4,11 @@ use strict;
 use warnings;
 use DateTime::Set;
 
-our $VERSION = '201012.24';
+our $VERSION = '201012.27';
 
 my @MEETINGS = (
     [2010, 12, 11, 18, 0],
+    [2011,  1, 22, 18, 0],
 );
 my $TZ = 'Asia/Tokyo';
 
