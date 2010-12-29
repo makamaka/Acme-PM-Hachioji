@@ -11,7 +11,7 @@ isa_ok( $meetings, 'Acme::PM::Hachioji::Meetings' );
 isa_ok( $meetings->days, 'DateTime::Set' );
 
 is( $meetings->days->previous( $a_day )->ymd, '2010-12-11', 'previous' );
-is( $meetings->days->next( $a_day ),           undef,       'next' );
+is( $meetings->days->next( $a_day )->ymd,     '2011-01-22', 'next' );
 
 $meetings->current_day( $a_day );
 
